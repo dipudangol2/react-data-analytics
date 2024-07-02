@@ -8,9 +8,9 @@ const Newsletter = () => {
                     <p>Sign up to our newsletter and stay up to date</p>
                 </div>
                 <div className='my-4'>
-                    <div className='flex flex-col sm:flex-row items-center justify-between w-full '>
-                        <input className="p-3 flex w-full rounded-md text-black" type="email" placeholder='Enter your email' />
-                        <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] my-6 px-6 py-3'>Notify Me</button>
+                    <div className='flex flex-col sm:flex-row items-center justify-between w-full gap-[2px]'>
+                        <input className="p-3 flex w-full md:w-[65%] rounded-md text-black" type="email" placeholder='Enter your email' />
+                        <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] md:w-[35%] my-6 px-4 py-3'>Notify Me</button>
 
                     </div>
 
